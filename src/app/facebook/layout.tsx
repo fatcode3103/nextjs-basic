@@ -14,8 +14,7 @@ export default function FaceLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div>
-        <span>Header facebook</span>
+    <div className="mx-5">
         <div>{children}</div>
     </div>
   );
